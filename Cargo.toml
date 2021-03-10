@@ -1,0 +1,18 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+authors = ["Leandro Guedes <leandroguedes@protonmail.com>"]
+edition = "2018"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/leanndroguedes"
+repository = "https://github.com/leanndroguedes"
+license = "MIT OR Apache-2.0"
+keywords = ["cli", "search"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.21"
+anyhow = "1.0.38"
